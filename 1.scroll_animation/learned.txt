@@ -1,0 +1,6 @@
+
+In CSS, the :nth-of-type pseudo-class
+ allows you to select elements that are a specific
+  child of their parent element, based on their type or element name.
+   It's a powerful selector that lets you apply styles to elements that 
+   match a certain pattern within their parent container.
