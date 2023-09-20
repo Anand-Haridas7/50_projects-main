@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Your JavaScript code here
+
   const scrollElements = document.querySelectorAll(".js-scroll");
 console.log(scrollElements)
 
