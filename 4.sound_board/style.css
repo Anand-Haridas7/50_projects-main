@@ -1,35 +1,39 @@
 @import url('https://fonts.googleapis.com/css?Muli&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+    background-color: rgb(150, 200, 200); 
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; 
+    overflow: hidden;
+    margin: 0;
 }
 
-#container {
-  text-align: center;
+.btn {
+    background-color: rgb(17, 150, 143);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
 }
 
-.buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.btn:hover {
+    opacity: 0.9;
 }
 
-button {
-  padding: 10px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #3498db;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-}
+.btn:focus {
+    outline: none;
 
-button:hover {
-  background-color: #2980b9;
 }
