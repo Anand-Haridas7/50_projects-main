@@ -2,11 +2,11 @@ const sounds = ['Beep', 'Bird', 'Jungle', 'Car', 'Winning', 'Firework']
  
 sounds.forEach(sound => {
     const btn = document.createElement('button')
-    btn.classList.add('btn')
 
-    btn.innerText = sound
 
-    btn.addEventListener('click', () => {
+    btn.innerText = sound  
+
+    btn.addEventListener('click', () => {  
         stopSong()
         document.getElementById(sound).play()
     })
